@@ -1,0 +1,11 @@
+Para usar este template:
+
+* Reemplazar las páginas de ejemplo (content/pages) por las páginas que se quieran publicar.
+* Revisar los ficheros de configuración pelicanconf.py y publishconf.py y sustituir los valores de ejemplo por la config real.
+* Si se quiere usar un formulario de contacto (hay un ejemplo en content/pages/contact.md) se debe habilitar el script apps.js (descomentar la línea correspondiente en pelicanconf.py). También se debe configurar el fichero content/php/mailer.php con las direcciones de correo a usar.
+* Si no se quiere usar un formulario de contacto, se pueden eliminar los ficheros content/js/app.js y content/php/mailer.php para que no sean accesibles desde el servidor.
+* Existen algunos widgets extra en el tema que pueden activarse en la configuración (SOCIAL, WORK_SUPPORTED_BY_HTML, etc.)
+
+Para generar el resultado:
+* make html genera los html en la carpeta output
+* make github genera los html y los añade a la rama gh-pages del repositorio actual

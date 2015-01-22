@@ -1,0 +1,6 @@
+*.pyc
+output
+cache
+.ropeproject
+pelican.pid
+srv.pid
