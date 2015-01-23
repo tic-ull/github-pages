@@ -32,7 +32,7 @@ sortorder: 80
   </li>
 </ul>
 
-<h3>ITER Collaborators</h3>
+<h3>Collaborators</h3>
 <ul class="list-group">
   <li class="list-group-item">
     <div class="media-left" style="width: 100px;">
