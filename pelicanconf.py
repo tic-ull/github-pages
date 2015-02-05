@@ -19,6 +19,8 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+ULL_CSS_URL = 'http://static.ull.es/v3/dist/css/ull.min.css'
+
 # Blogroll
 LINKS = (('Universidad de La Laguna (ULL)', 'http://www.ull.es/'),)
 

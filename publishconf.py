@@ -12,6 +12,7 @@ from pelicanconf import *
 
 #SITEURL = '<site_url>'
 RELATIVE_URLS = False
+ULL_CSS_URL = '//static.ull.es/v3/dist/css/ull.min.css'
 
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
