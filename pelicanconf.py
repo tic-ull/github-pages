@@ -62,6 +62,11 @@ WORK_SUPPORTED_BY_HTML = (('This work is being supported by <suporter>'),
 LICENSE = (('License url'), ('License image'),)
 """
 
+# Technology
+"""
+TECHNOLOGY = (('<You can put here html, like an image>'),)
+"""
+
 # Desactivar elementos propios de un blog
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = False
 DISPLAY_CATEGORIES_ON_SIDEBAR = False
