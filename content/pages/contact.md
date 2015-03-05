@@ -1,13 +1,40 @@
 Title: Contact
 sortorder: 99
 
-<h3><i class="fa fa-map-marker"></i>-title-</h3>
-<p>UNIVERSIDAD DE LA LAGUNA<br>
--resto de la dirección-</p>
+<div class="section">
+    <ul class="nav nav-tabs header">
+        <li class="active"><i class="fa fa-map-marker"></i> Universidad de La Laguna (ULL)</li>
+    </ul>
+    <div class="content">
+        <div class="row-fluid">
+            <div class="vcard">
+                <span class="fn">Pabellón de Gobierno</span><br>
+                <span class="org">Universidad de La Laguna (ULL)<br>
+                <p class="adr">
+                    <span class="street-address">C/ Molinos de Agua, S/N<span><br>
+                    <span class="postal-code">38200</span>, <span class="locality">San Cristóbal de La Laguna</span><br>
+                    <span class="region">Santa Cruz de Tenerife</span><br>
+                    <span class="country-name">España</span>
+                </p>
+                <i class="fa fa-envelope"></i><span class="email"><a href="mailto:email@example.com"> email@example.com</a></span><br>
+                <i class="fa fa-phone"></i><span class="tel"><a href="tel:+34922319000"> (+34) 922 319 000</a></span>
+            </div>
+        </div>
+    </div>
+</div>
 
-<h3><i class="fa fa-envelope"></i> Contact Us</h3>
-<noscript><p>For further information, please don't hesitate to contact us by e-mail to <a href="mailto:direccion_de_contacto"><i class="fa fa-envelope"></i>verdino@ull.es</a>.</p></noscript>
-<p class="jsonly">For further information, you can leave a message using the contact form below.</p>
+<h2>Contact Us</h2>
+
+<noscript>
+    <p>
+        For further information, please dont hesitate to contact us by e-mail to 
+        <a href="mailto:email@example.com"><i class="fa fa-envelope"></i> email@example.com</a>.
+    </p>
+</noscript>
+
+<p class="jsonly">
+    For further information, you can leave a message using the contact form below.
+</p>
 <div class="container-fluid jsonly">
     <div class="row">
         <div class="col-md-12">

@@ -8,9 +8,9 @@ OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
-FTP_HOST=ddv.ull.es
-FTP_USER=verdino
-FTP_TARGET_DIR=webpages
+FTP_HOST=example.com
+FTP_USER=example_user
+FTP_TARGET_DIR=example_dir
 
 SSH_HOST=localhost
 SSH_PORT=22

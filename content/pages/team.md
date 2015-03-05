@@ -1,55 +1,93 @@
-Title: Team
-sortorder: 80
+Title: Development Team
+menulabel: Team
+URL: team.html
+save_as: team.html
+sortorder: 98
 
-<h3>University of La Laguna</h3>
-<ul class="list-group">
-  <li class="list-group-item">
-    <div class="media-left" style="width: 100px;">
-     <img src="images/placeholder_photo.png">
+<div class="section">
+    <ul class="nav nav-tabs header">
+        <li class="active">University of La Laguna</li>
+    </ul>
+    <div class="content">
+        <div class="row-fluid">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <div class="media-left" style="width: 100px; vertical-align:middle;">
+                        <img src="images/placeholder_photo.png">
+                    </div>
+                    <div class="media-body">
+                        <h4>Full Name</h4>
+                        <p>
+                            Profession<br>
+                            Copyright 20XX-20XX
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i><a href="mailto:mail@example.com"> mail@example.com</a>
+                            &nbsp;
+                        </p>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="media-left" style="width: 100px; vertical-align:middle;">
+                        <img src="images/placeholder_photo.png">
+                    </div>
+                    <div class="media-body">
+                        <h4>Full Name</h4>
+                        <p>
+                            Profession<br>
+                            Copyright 20XX-20XX
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i><a href="mailto:mail@example.com"> mail@example.com</a>
+                            &nbsp;
+                        </p>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="media-left" style="width: 100px; vertical-align:middle;">
+                        <img src="images/placeholder_photo.png">
+                    </div>
+                    <div class="media-body">
+                        <h4>Full Name</h4>
+                        <p>
+                            Profession<br>
+                            Copyright 20XX-20XX
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i><a href="mailto:mail@example.com"> mail@example.com</a>
+                            &nbsp;
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="media-body">
-      <h4>Desarrollador 1</h4>
-      <p>Ingeniero en Informática<br>Becario</p>
-    </div>
-  </li>
-  <li class="list-group-item">
-    <div class="media-left" style="width: 100px;">
-     <img src="images/placeholder_photo.png">
-    </div>
-    <div class="media-body">
-      <h4>Desarrollador 2</h4>
-      <p>Ingeniero en Informática<br>Becario</p>
-    </div>
-  </li>
-  <li class="list-group-item">
-    <div class="media-left" style="width: 100px;">
-     <img src="images/placeholder_photo.png">
-    </div>
-    <div class="media-body">
-      <h4>Desarrollador 3</h4>
-      <p>Ingeniero en Informática<br>Becario</p>
-    </div>
-  </li>
-</ul>
+</div>
 
-<h3>Collaborators</h3>
-<ul class="list-group">
-  <li class="list-group-item">
-    <div class="media-left" style="width: 100px;">
-     <img src="images/placeholder_photo.png">
+<div class="section">
+    <ul class="nav nav-tabs header">
+        <li class="active">Collaborators</li>
+    </ul>
+    <div class="content">
+        <div class="row-fluid">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <div class="media-left" style="width: 100px; vertical-align:middle;">
+                        <img src="images/placeholder_photo.png">
+                    </div>
+                    <div class="media-body">
+                        <h4>Full Name</h4>
+                        <p>
+                            Profession<br>
+                            Copyright 20XX-20XX
+                        </p>
+                        <p>
+                            <i class="fa fa-envelope"></i><a href="mailto:mail@example.com"> mail@example.com</a>
+                            &nbsp;
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </div>
-    <div class="media-body">
-      <h4>Colaborador 1</h4>
-      <p>Ingeniero en Informática<br>Becario</p>
-    </div>
-  </li>
-  <li class="list-group-item">
-    <div class="media-left" style="width: 100px;">
-     <img src="images/placeholder_photo.png">
-    </div>
-    <div class="media-body">
-      <h4>Colaborador 2</h4>
-      <p>Ingeniero en Informática<br>Becario</p>
-    </div>
-  </li>
-</ul>
+</div>

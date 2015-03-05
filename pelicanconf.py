@@ -1,10 +1,11 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*- #
+# -*- encoding: UTF-8 -*-
+
 from __future__ import unicode_literals
 
 AUTHOR = u'Universidad de La Laguna'
-SITENAME = u'<site_name>'
-SITEURL = '<site_url>'
+SITENAME = u'Sample Site'
+# SITEURL = '<site_url>'
 
 PATH = 'content'
 
@@ -22,6 +23,22 @@ AUTHOR_FEED_RSS = None
 ULL_CSS_URL = 'http://static.ull.es/v3/dist/css/ull.min.css'
 
 # Blogroll
+GENERIC_BLOCKS = [
+    {
+        'fa_icon': 'fa-external-link-square',
+        'title': 'Sample of Links with images',
+        'content': [
+            '<a href="http://www.ull.es/" target="_blank"><img width="80%" style="margin-left: 10%; margin-right: 10%; margin-bottom: 5%;" title="Universidad de La Laguna" src="images/ull.png"></img></a>',
+        ]
+    },
+    {
+        'fa_icon': 'fa-bars',
+        'title': 'Generic Block Title II',
+        'content': [
+            '&nbsp; ... You can put here HTML ... <br>',
+        ]
+    },
+]
 LINKS = (('Universidad de La Laguna (ULL)', 'http://www.ull.es/'),)
 
 # Social widget
@@ -35,10 +52,10 @@ SOCIAL = (('Facebook', '<facebook_url>'),
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
-THEME='themes/pelican-bootstrap3-imagenull'
-#JUMBOTRON_IMAGE_URL='images/banner.jpg'
+THEME = 'themes/pelican-bootstrap3-imagenull'
+# JUMBOTRON_IMAGE_URL='images/banner.jpg'
 
 STATIC_PATHS = ['images', 'css', 'js', 'php']
 # Uncomment to be able to use the contact form
@@ -59,7 +76,10 @@ WORK_SUPPORTED_BY_HTML = (('This work is being supported by <suporter>'),
 
 # Licencia
 """
-LICENSE = (('License url'), ('License image'),)
+LICENSE = (
+    ('License url'),
+    ('License image link'),
+)
 """
 
 # Technology
@@ -82,3 +102,9 @@ FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 
+GITHUB_REPO = 'https://example.com/tic-ull/sample-site'
+
+PLUGIN_PATHS = ["plugins", THEME + "/plugins", ]
+PLUGINS = ['toc', ]
+
+TOC_TITLE = u'Table of Content'
