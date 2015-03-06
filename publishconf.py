@@ -10,7 +10,7 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-#SITEURL = '<site_url>'
+SITEURL = '/github-pages'
 RELATIVE_URLS = False
 ULL_CSS_URL = '//static.ull.es/v3/dist/css/ull.min.css'
 
