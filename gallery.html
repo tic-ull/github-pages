@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Tags - Sample Site</title>
+    <title>Gallery - Sample Site</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -18,15 +18,15 @@
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="//static.ull.es/v3/dist/img/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="//static.ull.es/v3/dist/img/apple-touch-icon-57-precomposed.png">
 
+<link rel="canonical" href="/gallery.html">
 
         <meta name="author" content="Universidad de La Laguna" />
 
-    <!-- Open Graph tags -->
-        <meta property="og:site_name" content="Sample Site" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Sample Site"/>
-        <meta property="og:url" content=""/>
-        <meta property="og:description" content="Sample Site"/>
+    <meta property="og:site_name" content="Sample Site" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content="Gallery"/>
+    <meta property="og:url" content="/gallery.html"/>
+    <meta property="og:description" content="" />
 
 
     <!-- ULL -->
@@ -93,7 +93,7 @@
                         <li><a href="/other.html">Sample Page</a></li>
                         <li><a href="/contact.html">Contact</a></li>
                         <li><a href="/team.html">Team</a></li>
-                        <li><a href="/gallery.html">Gallery</a></li>
+                        <li class="active"><a href="/gallery.html">Gallery</a></li>
                         <li><a href="/">Home</a></li>
             </ul>
         </div>
@@ -104,10 +104,34 @@
     <div class="row">
         <div class="col-md-9" role="main">
 
-    <section id="tags">
-        <h1>Tags for Sample Site</h1>
-        <div class="panel-group" id="accordion">        </div>
-
+    <section id="content" class="body">
+        <h1 class="entry-title">Gallery</h1>
+            <h2 name="example_2">Example 2</h2>
+            <div id="gallery-example_2" class="masonry well">
+                    <div class="item">
+                        <a href="/images/gallery/example_2/1.gif" data-title="1.gif" data-toggle="lightbox" data-gallery="example_2" data-parent="#gallery-example_2" >
+                            <img src="/images/gallery/example_2/1.gif" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="/images/gallery/example_2/2.gif" data-title="2.gif" data-toggle="lightbox" data-gallery="example_2" data-parent="#gallery-example_2" >
+                            <img src="/images/gallery/example_2/2.gif" class="img-responsive">
+                        </a>
+                    </div>
+            </div>
+            <h2 name="example_1">Example 1</h2>
+            <div id="gallery-example_1" class="masonry well">
+                    <div class="item">
+                        <a href="/images/gallery/example_1/1.gif" data-title="1.gif" data-toggle="lightbox" data-gallery="example_1" data-parent="#gallery-example_1" >
+                            <img src="/images/gallery/example_1/1.gif" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="/images/gallery/example_1/2.gif" data-title="2.gif" data-toggle="lightbox" data-gallery="example_1" data-parent="#gallery-example_1" >
+                            <img src="/images/gallery/example_1/2.gif" class="img-responsive">
+                        </a>
+                    </div>
+            </div>
     </section>
         </div>
         <div class="col-md-3 sidebar" id="sidebar">
