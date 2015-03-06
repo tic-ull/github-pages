@@ -105,6 +105,7 @@ AUTHOR_FEED_ATOM = None
 GITHUB_REPO = 'https://example.com/tic-ull/sample-site'
 
 PLUGIN_PATHS = ["plugins", THEME + "/plugins", ]
-PLUGINS = ['toc', ]
+PLUGINS = ['toc', 'gallery']
+GALLERY_ALBUMS = {"example_1": "Example 1", "example_2": "Example 2"}
 
 TOC_TITLE = u'Table of Content'
