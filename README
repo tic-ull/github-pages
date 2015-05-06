@@ -1,18 +1,40 @@
 Sitio de Ejemplo de GitHub Page para proyectos de la Universidad de La Laguna
 
-Pasos a seguir para crear un nuevo sitio:
+* Instalación
+  -  git clone
+  -  Virtualenv + requirements
 
-* Reemplazar el contenido de las páginas de ejemplo (content/pages)
-* Aplicar los cambios necesarios en la configuración (pelicanconf.py y publishconf.py)
-* Para poder usar el formulario de contacto de ejemplo (content/pages/contact.md):
-    Habilitar el script apps.js (descomentar la línea correspondiente en pelicanconf.py)
-    Configurar el fichero content/php/mailer.php con las direcciones de correo a usar
-* Si no desea usar un formulario de contacto pueden eliminar los ficheros content/js/app.js y content/php/mailer.php
-* Existen algunos widgets extra en el tema que pueden activarse en la configuración (SOCIAL, WORK_SUPPORTED_BY_HTML, etc.)
-* Para emplear el plugin toc (Índice) debe añadir un id en cada h2 que desee que aparezca en el índice (Ej: <h2 id="sample">Sample</h2>)
+* 2 ramas:
+  -  master: source
+  -  gh-pages: generada
 
+* Comandos de utilidad:
+  -  make devserver - Servidor de Desarrollo, lanzado en background  (localhost:8000)
+  -  make html - Gerena el HTML de la página en el directorio output
+  -  make github - Genera el HTML y los pushea en la rama gh-pages
 
-Comandos de utilidad:
-* make devserver - Servidor de Desarrollo
-* make html - Gerena el HTML de la página en el directorio output
-* make github - Genera el HTML y los pushea en la rama gh-pages
+* Pautas para adaptar el sitio:
+  - Configuración general: pelicanconf.py y publishconf.py
+  - Contenido de las páginas: content/pages
+
+- Formulario de contacto (sólo para servidores php):
+    Para añadir y usar el formulario de contacto de ejemplo (content/pages/contact.md):
+        Habilitar el script apps.js (descomentar la línea correspondiente en pelicanconf.py)
+        Configurar el fichero content/php/mailer.php con las direcciones de correo a usar
+
+    Para eliminar el formulario de contacto
+        Eliminar los ficheros content/js/app.js y content/php/mailer.php
+
+- ¿Cómo añadir widgets adicionales en el lateral derecho?
+    Se activan y configuran en el archivo de configuración pelicanconf.py (SOCIAL, WORK_SUPPORTED_BY_HTML, etc.)
+
+- ¿Cómo añadir un índice en la página?
+    Uso del plugin toc (Índice), el índice se genera automáticamente
+    Añadir un id en cada h2 que desee que aparezca en el índice (Ej: <h2 id="sample">Sample</h2>)
+
+- ¿Cómo poner una galería?
+    Uso del plugin gallery.
+    Añadir las imagenes en directorios en /content/images/gallery
+    Definir el diccionario GALLERY_ALBUMS en la configuración pelicanconf.py, con los albumes que deseemos mostrar en la galería y su nombre 'nombre_directorio_imagenes': 'titulo_publico_galeria'
+
+    Hay 2 tipos de galeria.
